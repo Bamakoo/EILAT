@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import SwiftData
 
 @main
 struct EILATApp: App {
@@ -13,5 +14,11 @@ struct EILATApp: App {
         WindowGroup {
             ContentView()
         }
+        .modelContainer(
+            for: [Patient.self, 
+                  Appointment.self,
+                  Prescription.self,
+                  Note.self]
+        )
     }
 }

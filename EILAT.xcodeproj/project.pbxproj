@@ -14,6 +14,21 @@
 		8416C8FC2B54356F006D2509 /* EILATTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8416C8FB2B54356F006D2509 /* EILATTests.swift */; };
 		8416C9062B54356F006D2509 /* EILATUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8416C9052B54356F006D2509 /* EILATUITests.swift */; };
 		8416C9082B54356F006D2509 /* EILATUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8416C9072B54356F006D2509 /* EILATUITestsLaunchTests.swift */; };
+		8416C9152B5435B1006D2509 /* Patient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8416C9142B5435B1006D2509 /* Patient.swift */; };
+		8416C9172B54413F006D2509 /* Appointment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8416C9162B54413F006D2509 /* Appointment.swift */; };
+		8416C91B2B544237006D2509 /* Prescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8416C91A2B544237006D2509 /* Prescription.swift */; };
+		848138932B5C74530062D21A /* MainToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848138922B5C74530062D21A /* MainToolbar.swift */; };
+		848138962B5C75960062D21A /* ContentViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848138952B5C75960062D21A /* ContentViewViewModel.swift */; };
+		8481389A2B5C777B0062D21A /* NewPatientSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848138992B5C777B0062D21A /* NewPatientSheetView.swift */; };
+		8481389C2B5C79A20062D21A /* NewAppointmentSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8481389B2B5C79A20062D21A /* NewAppointmentSheetView.swift */; };
+		8481389E2B5D5B870062D21A /* NewPrescriptionSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8481389D2B5D5B870062D21A /* NewPrescriptionSheetView.swift */; };
+		848138A02B5D6A630062D21A /* AppointmentsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8481389F2B5D6A630062D21A /* AppointmentsListView.swift */; };
+		848138A22B5D6B330062D21A /* PatientsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848138A12B5D6B330062D21A /* PatientsListView.swift */; };
+		84D95E1D2B65857900AD66EC /* NewNoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D95E1C2B65857900AD66EC /* NewNoteView.swift */; };
+		84D95E1F2B65960500AD66EC /* PatientDetailedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D95E1E2B65960500AD66EC /* PatientDetailedView.swift */; };
+		84D95E5D2B66684A00AD66EC /* AppointmentListDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D95E5C2B66684A00AD66EC /* AppointmentListDetailView.swift */; };
+		84DD99582B63D6910042DF95 /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DD99572B63D6910042DF95 /* Note.swift */; };
+		84DD995D2B63E6AC0042DF95 /* UpdatePatientSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DD995C2B63E6AC0042DF95 /* UpdatePatientSheetView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +59,21 @@
 		8416C9012B54356F006D2509 /* EILATUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EILATUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8416C9052B54356F006D2509 /* EILATUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EILATUITests.swift; sourceTree = "<group>"; };
 		8416C9072B54356F006D2509 /* EILATUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EILATUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8416C9142B5435B1006D2509 /* Patient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Patient.swift; sourceTree = "<group>"; };
+		8416C9162B54413F006D2509 /* Appointment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Appointment.swift; sourceTree = "<group>"; };
+		8416C91A2B544237006D2509 /* Prescription.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prescription.swift; sourceTree = "<group>"; };
+		848138922B5C74530062D21A /* MainToolbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainToolbar.swift; sourceTree = "<group>"; };
+		848138952B5C75960062D21A /* ContentViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewViewModel.swift; sourceTree = "<group>"; };
+		848138992B5C777B0062D21A /* NewPatientSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewPatientSheetView.swift; sourceTree = "<group>"; };
+		8481389B2B5C79A20062D21A /* NewAppointmentSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewAppointmentSheetView.swift; sourceTree = "<group>"; };
+		8481389D2B5D5B870062D21A /* NewPrescriptionSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewPrescriptionSheetView.swift; sourceTree = "<group>"; };
+		8481389F2B5D6A630062D21A /* AppointmentsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppointmentsListView.swift; sourceTree = "<group>"; };
+		848138A12B5D6B330062D21A /* PatientsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientsListView.swift; sourceTree = "<group>"; };
+		84D95E1C2B65857900AD66EC /* NewNoteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewNoteView.swift; sourceTree = "<group>"; };
+		84D95E1E2B65960500AD66EC /* PatientDetailedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientDetailedView.swift; sourceTree = "<group>"; };
+		84D95E5C2B66684A00AD66EC /* AppointmentListDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppointmentListDetailView.swift; sourceTree = "<group>"; };
+		84DD99572B63D6910042DF95 /* Note.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
+		84DD995C2B63E6AC0042DF95 /* UpdatePatientSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdatePatientSheetView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +126,9 @@
 			children = (
 				8416C8EA2B54356D006D2509 /* EILATApp.swift */,
 				8416C8EC2B54356D006D2509 /* ContentView.swift */,
+				848138942B5C75760062D21A /* ViewModels */,
+				848138912B5C74310062D21A /* Views */,
+				848138902B5C717E0062D21A /* Models */,
 				8416C8EE2B54356F006D2509 /* Assets.xcassets */,
 				8416C8F02B54356F006D2509 /* Preview Content */,
 			);
@@ -125,6 +158,74 @@
 				8416C9072B54356F006D2509 /* EILATUITestsLaunchTests.swift */,
 			);
 			path = EILATUITests;
+			sourceTree = "<group>";
+		};
+		848138902B5C717E0062D21A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8416C9162B54413F006D2509 /* Appointment.swift */,
+				8416C91A2B544237006D2509 /* Prescription.swift */,
+				8416C9142B5435B1006D2509 /* Patient.swift */,
+				84DD99572B63D6910042DF95 /* Note.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		848138912B5C74310062D21A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				848138922B5C74530062D21A /* MainToolbar.swift */,
+				84DD995A2B63E1C10042DF95 /* AppointmentViews */,
+				84DD99592B63E19B0042DF95 /* PatientViews */,
+				84D95E1B2B65856100AD66EC /* NoteViews */,
+				84DD995B2B63E2CF0042DF95 /* PrescriptionViews */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		848138942B5C75760062D21A /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				848138952B5C75960062D21A /* ContentViewViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		84D95E1B2B65856100AD66EC /* NoteViews */ = {
+			isa = PBXGroup;
+			children = (
+				84D95E1C2B65857900AD66EC /* NewNoteView.swift */,
+			);
+			path = NoteViews;
+			sourceTree = "<group>";
+		};
+		84DD99592B63E19B0042DF95 /* PatientViews */ = {
+			isa = PBXGroup;
+			children = (
+				848138A12B5D6B330062D21A /* PatientsListView.swift */,
+				84D95E1E2B65960500AD66EC /* PatientDetailedView.swift */,
+				84DD995C2B63E6AC0042DF95 /* UpdatePatientSheetView.swift */,
+				848138992B5C777B0062D21A /* NewPatientSheetView.swift */,
+			);
+			path = PatientViews;
+			sourceTree = "<group>";
+		};
+		84DD995A2B63E1C10042DF95 /* AppointmentViews */ = {
+			isa = PBXGroup;
+			children = (
+				8481389F2B5D6A630062D21A /* AppointmentsListView.swift */,
+				84D95E5C2B66684A00AD66EC /* AppointmentListDetailView.swift */,
+				8481389B2B5C79A20062D21A /* NewAppointmentSheetView.swift */,
+			);
+			path = AppointmentViews;
+			sourceTree = "<group>";
+		};
+		84DD995B2B63E2CF0042DF95 /* PrescriptionViews */ = {
+			isa = PBXGroup;
+			children = (
+				8481389D2B5D5B870062D21A /* NewPrescriptionSheetView.swift */,
+			);
+			path = PrescriptionViews;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +358,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84D95E1F2B65960500AD66EC /* PatientDetailedView.swift in Sources */,
 				8416C8ED2B54356D006D2509 /* ContentView.swift in Sources */,
 				8416C8EB2B54356D006D2509 /* EILATApp.swift in Sources */,
+				848138962B5C75960062D21A /* ContentViewViewModel.swift in Sources */,
+				84DD995D2B63E6AC0042DF95 /* UpdatePatientSheetView.swift in Sources */,
+				8416C91B2B544237006D2509 /* Prescription.swift in Sources */,
+				848138A22B5D6B330062D21A /* PatientsListView.swift in Sources */,
+				84DD99582B63D6910042DF95 /* Note.swift in Sources */,
+				848138932B5C74530062D21A /* MainToolbar.swift in Sources */,
+				8481389E2B5D5B870062D21A /* NewPrescriptionSheetView.swift in Sources */,
+				8481389C2B5C79A20062D21A /* NewAppointmentSheetView.swift in Sources */,
+				848138A02B5D6A630062D21A /* AppointmentsListView.swift in Sources */,
+				84D95E5D2B66684A00AD66EC /* AppointmentListDetailView.swift in Sources */,
+				8416C9152B5435B1006D2509 /* Patient.swift in Sources */,
+				8416C9172B54413F006D2509 /* Appointment.swift in Sources */,
+				84D95E1D2B65857900AD66EC /* NewNoteView.swift in Sources */,
+				8481389A2B5C777B0062D21A /* NewPatientSheetView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

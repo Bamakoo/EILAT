@@ -6,19 +6,23 @@
 //
 
 import SwiftUI
+import SwiftData
 
 struct ContentView: View {
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        TabView {
+            PatientsListView()
+                .tabItem {
+                    Image(systemName: "person")
+                }
+            AppointmentsListView()
+                .tabItem {
+                    Image(systemName: "calendar")
+                }
         }
-        .padding()
     }
 }
-
 #Preview {
     ContentView()
 }
